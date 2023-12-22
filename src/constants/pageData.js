@@ -9,7 +9,7 @@
 
 export const PAGE_DEPH_MARGIN = 15;
 
-export const EXPERIENCE = {
+export const WEBSITES = {
   rows: 2,
   separation: 3,
   leftPadding: -0.32,
@@ -23,18 +23,25 @@ export const EXPERIENCE = {
     width: 1024,
   },
   items: [
+
     {
-      url: 'websites-preview/optic-logo.png',
-      websiteURL: 'https://optic.id/',
+      url: 'icons/untitled2.png',
+      websiteURL: 'https://www.thedumbduck.store/',
     },
     {
-      url: 'websites-preview/good-dollar.jpeg',
-      websiteURL: 'https://www.gooddollar.org/',
+      url: 'icons/slkspace.png',
+      websiteURL: 'https://www.sanliuk.com/games',
     },
+    /*
+    {
+      url: 'portfolio/portfolioimg/portfolioimg.png',
+      websiteURL: 'https://www.sanliuk.com/portfolio',
+    },
+    
     {
       url: 'websites-preview/cs2.png',
-      websiteURL:
-        'https://633880ea5adf252405f33fce--capable-buttercream-d8879f.netlify.app/cs.html', //optional open url in new tab
+      content: { type: 'image', path: 'websites-preview/cs2.png' }
+
     },
     {
       url: 'websites-preview/knack-page.png',
@@ -46,6 +53,7 @@ export const EXPERIENCE = {
       websiteURL:
         'https://633880ea5adf252405f33fce--capable-buttercream-d8879f.netlify.app/magic-app.html',
     },
+    */
   ],
 };
 
@@ -65,14 +73,14 @@ export const SKILLS_LIST = {
     { url: 'icons/node-js-logo.png', websiteURL: null },
     { url: 'icons/python-logo.png', websiteURL: null },
     { url: 'icons/three-js-logo.png', websiteURL: null },
-    { url: 'icons/jest-logo.png', websiteURL: null },
-    { url: 'icons/graph-ql-logo.png', websiteURL: null },
-    { url: 'icons/vim-logo.png', websiteURL: null },
+    { url: 'icons/unity-logo.png', websiteURL: null },
+    { url: 'icons/ue-logo.png', websiteURL: null },
+    { url: 'icons/blender-logo.png', websiteURL: null },
   ],
 };
 
 export const STOPS = [
-  { displayPosition: 0, position: 0, name: 'Title' },
+  { displayPosition: 0, position: 0, name: 'Home' },
   {
     position: 0.13,
     displayPosition: 0.13,
@@ -85,7 +93,7 @@ export const STOPS = [
     displayPosition: 0.2007,
     displayPositionOffset: -0.03,
     displayPositionOffsetEnd: -0.07,
-    name: 'Experience',
+    name: 'Other websites',
   },
   {
     position: 0.2982,
@@ -99,7 +107,7 @@ export const STOPS = [
     displayPosition: 0.3009,
     displayPositionOffset: 0.08,
     displayPositionOffsetEnd: -0.17,
-    name: 'Download CV',
+    name: 'The Logo',
   },
   {
     position: 0.48,
@@ -120,7 +128,7 @@ export const STOPS = [
     displayPosition: 1,
     displayPositionOffset: 0.03,
     displayPositionOffsetEnd: 0,
-    name: 'Profile Picture',
+    name: 'San Liuk',
   },
 ];
 

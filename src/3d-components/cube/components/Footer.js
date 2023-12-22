@@ -9,7 +9,7 @@ const Footer = ({ footer }) => {
     <Text
       fontSize={0.05}
       position={[0, -0.59, 0.01]}
-      color={theme.colors.light}
+      color={theme.colors.text}
     >
       {footer}
     </Text>
