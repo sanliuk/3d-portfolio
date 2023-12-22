@@ -33,7 +33,7 @@ export const WEBSITES = {
       websiteURL: 'https://www.sanliuk.com/games',
     },
     {
-      url: 'portfolio/portfolioimg/portfolioimg.png',
+      url: 'icons/portfolioimg.png',
       websiteURL: 'https://www.sanliuk.com/portfolio',
     },
     
