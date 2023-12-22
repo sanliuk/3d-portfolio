@@ -3,20 +3,20 @@ import {
   STOPS,
   PAGE_DEPH_MARGIN,
   SKILLS_LIST,
-  EXPERIENCE,
+  WEBSITES,
 } from './constants/pageData';
 
 const configs = {
-  title: 'Tomas Gonzalez',
+  title: 'San Liuk',
   subTitle: 'Dev portfolio.',
   stars: {
     maxSize: 20,
     emissionIntencity: 40,
     //optionally stars can be an image
-    // url: 'icons/three-js-logo.png',
+    //url: 'icons/twittwer.png',
     dencity: 900,
   },
-  navTitle: 'Tomas Gonzalez portfolio.',
+  navTitle: 'San Liuk Studios',
   relevantStops: STOPS,
   pages: [
     {
@@ -24,21 +24,20 @@ const configs = {
       rotation: [Math.PI, 0, Math.PI],
       position: [0, 0, -PAGE_DEPH_MARGIN],
       displayAt: displayAt('About'),
-      title: 'Who Am I?',
+      title: 'About us',
       infos: [
-        "* I'm a maker, a curious thinker who enjoys learning and comprehending how things function.",
-        '* My journey as a software developer started when I was a just a kid trying to figure out how video games where made.',
-        '* I started my career as a front-end developer around 6 years ago in 2017, and since then I have helped many startup companies and non-profit organizations to develop quality products.',
-        '* I have a wide range of skills, of which I can say that I’ve mastered many.',
+        "San Liuk Studios specializes in advanced animation and game development, leveraging cutting-edge virtual production techniques and sound design.",
+        'With a team of industry-leading professionals, we deliver innovative solutions and transformative digital experiences for a global clientele.',
+        'Explore the forefront of technology and creativity with San Liuk.',
       ],
     },
     {
       scale: 15,
-      displayAt: displayAt('Experience'),
+      displayAt: displayAt('Other websites'),
       rotation: [0, -Math.PI / 2, 0],
       position: [-PAGE_DEPH_MARGIN, 0, 0],
-      title: 'Experience',
-      imageList: EXPERIENCE,
+      title: 'Other websites',
+      imageList: WEBSITES,
       footer: 'You can click the icons to find out more.',
     },
     {
@@ -52,11 +51,11 @@ const configs = {
     },
     {
       scale: 15,
-      displayAt: displayAt('Download CV'),
+      displayAt: displayAt('The Logo'),
       rotation: [0, 0, 0],
       position: [0, 0, PAGE_DEPH_MARGIN],
-      title: 'Here is my CV!',
-      footer: 'Click the icon above to view!',
+      title: 'Feel free to use our Logo!',
+      footer: 'Click the icon above to download the Logo',
       imageList: {
         rows: 1,
         separation: 3,
@@ -65,9 +64,9 @@ const configs = {
         scale: 0.8,
         items: [
           {
-            url: 'icons/resume.png',
+            url: 'icons/slk.png',
             websiteURL:
-              'https://docs.google.com/document/d/1wKGkXHhd7q5v3AOGPMK6Gtehpp_Tkp90BvUufUqQIRc/edit?usp=sharing',
+              'https://drive.google.com/drive/folders/12FHQbmmnzniA8OLobMFE7Mc2j85Bjzgh?usp=sharing',
           },
         ],
       },
@@ -77,40 +76,35 @@ const configs = {
       displayAt: displayAt('Personal Projects'),
       rotation: [Math.PI / 2, 0, 0],
       position: [0, -PAGE_DEPH_MARGIN, 0],
-      title: 'Personal Projects',
-      footer: '(And also this web-app)',
+      title: 'Our Projects',
+      footer: 'Click the icon above to to show the project',
       imageList: {
         rows: 2,
-        separation: 2.5,
+        separation: 1.5,
         leftPadding: -0.4,
         topPadding: 0.2,
         scale: 0.3,
         items: [
           {
-            url: 'websites-preview/nft-place-logo.png',
-            websiteURL: 'https://nft-place.xyz/',
+            url: 'icons/opensea.png',
+            websiteURL: 'https://opensea.io/collection/the-sanliuk-maimeddumbduck',
           },
           {
-            url: 'websites-preview/snow-hero.png',
-            websiteURL: 'https://powtom48.itch.io/snow-the-hero',
+            url: 'icons/playstoreappstore.png',
+            websiteURL: 'https://www.sanliuk.com/app',
           },
           {
-            url: 'websites-preview/minecraft-in-js.png',
+            url: 'icons/spotify.png',
             websiteURL:
-              'https://www.youtube.com/watch?v=yOUQquusyiY&t=123s&ab_channel=tomugon',
+              'https://open.spotify.com/artist/0dGIDGbkhhoYtTziRX5Qxg',
           },
           {
-            url: 'websites-preview/fish-chopter.png',
-            websiteURL: 'https://powtom48.itch.io/fishcopter',
+            url: 'icons/youtube.png',
+            websiteURL:
+              'https://www.youtube.com/channel/UCgbG6HYcITXhZ0W35lUvFbA',
           },
-          {
-            url: 'websites-preview/odd-clowns.png',
-            websiteURL: 'https://oddclowns.com/',
-          },
-          {
-            url: 'websites-preview/island-ai.png',
-            websiteURL: 'https://www.instagram.com/island.ai/',
-          },
+          
+      
         ],
       },
     },
@@ -119,7 +113,7 @@ const configs = {
       displayAt: displayAt('Get In Touch'),
       rotation: [0, Math.PI / 2, 0],
       position: [PAGE_DEPH_MARGIN, 0, 0],
-      title: 'You can find me in:',
+      title: 'You can find us on:',
       footer: 'Almost done but keep scrolling :)',
       imageList: {
         rows: 2,
@@ -130,20 +124,19 @@ const configs = {
         items: [
           {
             url: 'icons/twitter.png',
-            websiteURL: 'https://twitter.com/kiter_js',
+            websiteURL: 'https://twitter.com/SanLiuk',
           },
           {
             url: 'icons/linkedin.png',
             websiteURL:
-              'https://www.linkedin.com/in/tomas-gonzalez-perez-8784a2133/',
+              'https://www.linkedin.com/in/manuel-hosseini-sohi',
           },
           {
             url: 'icons/github.png',
-            websiteURL: 'https://github.com/TomasGonzalez',
           },
           {
             url: 'icons/email.png',
-            websiteURL: 'mailto:tomasgp14@gmail.com',
+            websiteURL: 'mailto:eraltdet@gmail.com',
           },
         ],
       },
