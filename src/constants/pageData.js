@@ -32,12 +32,13 @@ export const WEBSITES = {
       url: 'icons/slkspace.png',
       websiteURL: 'https://www.sanliuk.com/games',
     },
-    /*
     {
       url: 'portfolio/portfolioimg/portfolioimg.png',
       websiteURL: 'https://www.sanliuk.com/portfolio',
     },
     
+    /*
+
     {
       url: 'websites-preview/cs2.png',
       content: { type: 'image', path: 'websites-preview/cs2.png' }
